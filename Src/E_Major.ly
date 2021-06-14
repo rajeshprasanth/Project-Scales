@@ -61,6 +61,10 @@ varb = {
 	   gis b e
 	   b e gis
 	   e gis b
+	   b gis e   	
+		gis e b   	
+		e b gis
+		b gis e
         \bar ":|."
     }
 }
@@ -141,7 +145,7 @@ varb = {
         fis e dis cis        
         e dis cis b        
         dis cis b a        
-        c b a g
+        cis b a gis
 
 
         \bar ":|."
