@@ -92,6 +92,11 @@ varb = {
 	e a cis
 	a cis e
 	cis e a
+	a e cis
+	e cis a	
+	cis a e	
+	a e cis
+	e cis a
         \bar ":|."
     }
 }
@@ -235,7 +240,7 @@ varb = {
 \score {{
     \global
     \relative c' {
-      a cis e a cis e a a e cis a e cis a
+      a2 cis4 e a2 cis4 e a2 a2 e4 cis a2 e4 cis a2
         \bar ":|."
     }
 }
