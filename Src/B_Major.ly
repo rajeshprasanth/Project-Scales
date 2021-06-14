@@ -92,6 +92,11 @@ varb = {
 	fis b dis
 	b dis fis
 	dis fis b
+	b fis dis
+	fis dis b	
+	dis b fis
+	b fis dis
+	fis dis b
         \bar ":|."
     }
 }
@@ -184,9 +189,9 @@ varb = {
 \score {{
     \global
      {
-       a'4 \downbow a' \upbow a'\downbow a' \upbow \bar "||" 
-       a' \downbow (a') a' \upbow (a')  \bar "||"
-        a' \downbow (a' a' a')  a'\upbow  (a' a' a')\bar "||"
+       ais'4 \downbow ais' \upbow ais'\downbow ais' \upbow \bar "||" 
+       ais' \downbow (ais') ais' \upbow (ais')  \bar "||"
+        ais' \downbow (ais' ais' ais')  ais'\upbow  (ais' ais' ais')\bar "||"
         \bar ":|."
     }
 }
@@ -235,7 +240,7 @@ varb = {
 \score {{
     \global
     \relative c' {
-       b dis fis b dis fis b b fis dis b fis dis b
+       b2 dis4 fis b2 dis4 fis b2 b2 fis4 dis b2 fis4 dis b2
         \bar ":|."
     }
 }
