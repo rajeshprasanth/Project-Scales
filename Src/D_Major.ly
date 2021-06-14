@@ -61,6 +61,10 @@ varb = {
        fis a d
        a d fis
        d fis a
+	   a fis d       
+		fis d a       
+		d a fis
+		a fis d
         \bar ":|."
     }
 }
