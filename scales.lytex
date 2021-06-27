@@ -1,0 +1,98 @@
+\documentclass[a4paper]{book}
+\usepackage{tocloft}
+
+
+
+\usepackage{geometry}
+\geometry{a4paper, margin=0.5in}
+
+\newcommand{\betweenLilyPondSystem}[1]{\vspace{0.5cm}\linebreak}
+
+\title{Violin Scales in First Position}
+\author{Rajesh Prashanth}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+
+
+\chapter{C Major}
+\lilypondfile{./scales//C_Major_Scales.ly}
+
+\chapter{G Major}
+\lilypondfile{./scales//G_Major_Scales.ly}
+
+\chapter{D Major}
+\lilypondfile{./scales//D_Major_Scales.ly}
+
+\chapter{A Major}
+\lilypondfile{./scales//A_Major_Scales.ly}
+
+\chapter{E Major}
+\lilypondfile{./scales//E_Major_Scales.ly}
+
+\chapter{B Major}
+\lilypondfile{./scales//B_Major_Scales.ly}
+
+%---------------------------------------------------------------------
+\chapter{F Major}
+\lilypondfile{./scales//F_Major_Scales.ly}
+
+\chapter{Bb Major}
+\lilypondfile{./scales//Bb_Major_Scales.ly}
+
+\chapter{Eb Major}
+\lilypondfile{./scales//Eb_Major_Scales.ly}
+
+\chapter{Ab Major}
+\lilypondfile{./scales//Ab_Major_Scales.ly}
+
+\chapter{Db Major}
+\lilypondfile{./scales//Db_Major_Scales.ly}
+
+%---------------------------------------------------------------------
+
+\chapter{A Minor}
+\lilypondfile{./scales//A_Minor_Scales.ly}
+
+\chapter{E Minor}
+\lilypondfile{./scales//E_Minor_Scales.ly}
+
+\chapter{B Minor}
+\lilypondfile{./scales//B_Minor_Scales.ly}
+
+\chapter{F\# Minor}
+\lilypondfile{./scales//F#_Minor_Scales.ly}
+
+\chapter{C\# Minor}
+\lilypondfile{./scales//C#_Minor_Scales.ly}
+
+\chapter{G\# Minor}
+\lilypondfile{./scales//G#_Minor_Scales.ly}
+
+
+%---------------------------------------------------------------------
+
+\chapter{D Minor}
+\lilypondfile{./scales//D_Minor_Scales.ly}
+
+\chapter{G Minor}
+\lilypondfile{./scales//G_Minor_Scales.ly}
+
+\chapter{C Minor}
+\lilypondfile{./scales//C_Minor_Scales.ly}
+
+\chapter{F Minor}
+\lilypondfile{./scales//F_Minor_Scales.ly}
+
+\chapter{Bb Minor}
+\lilypondfile{./scales//Bb_Minor_Scales.ly}
+
+
+
+
+
+\end{document}
